@@ -10,6 +10,22 @@ module Triple exposing
 
 This library contains many functions to work with Triple types that are similar to the Tuple but
 contains three different values.
+
+# Creation
+@docs Triple, triple
+
+# Access
+@docs first, second, third
+
+# Insertion
+@docs insertFirst, insertSecond, insertThird
+
+# Removing
+@docs dropFirst, dropSecond, dropThird
+
+# Mapping
+@docs mapFirst, mapSecond, mapThird, mapAll
+
 -}
 
 -- CREATION
